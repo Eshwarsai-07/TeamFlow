@@ -21,7 +21,7 @@ This is a beginner-friendly React app that simulates a basic task management sys
 
 - **React**
 - **React Router**
-- **Tailwind CSS** *(optional, if used)*
+- **Tailwind CSS** 
 - **Context API**
 - **LocalStorage API**
 
