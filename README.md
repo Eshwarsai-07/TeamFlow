@@ -22,9 +22,9 @@ This project is a beginner-friendly React app that simulates a basic task manage
 - **LocalStorage API**
 
 ## 📂 Project Structure
-/src
-├── components
-│   ├── Dashboard.jsx         # Reusable dashboard layout
+/src.
+├── components.
+│   ├── Dashboard.jsx         # Reusable dashboard layout.
 │   ├── Login.jsx             # Login form component
 │   └── TaskList.jsx          # Task list display component
 │
@@ -47,15 +47,15 @@ This project is a beginner-friendly React app that simulates a basic task manage
 ## 📦 Installation & Setup
 
 1. **Clone the Repository**
-   git clone https://github.com/Eshwarsai-07/employee-task-dashboard.git
-   cd employee-task-dashboard
-3. Install Dependencies
-    npm install
-4. Run the App
-    npm run dev
+   git clone https://github.com/Eshwarsai-07/employee-task-dashboard.git.
+   cd employee-task-dashboard.
+3. Install Dependencies.
+    npm install.
+4. Run the App.
+    npm run dev.
 5.Open http://localhost:5173 in your browser.
 
-📝 Future Improvements
+📝 Future Improvements.
 Integrate a real backend (e.g., Node/Express + MongoDB)
 Add user registration
 Add task filtering, status updates
