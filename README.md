@@ -1,47 +1,56 @@
 # 🧑‍💼 React Employee Task Dashboard
 
-This project is a beginner-friendly React app that simulates a basic task management system for employees and admins. It includes role-based dashboards, authentication, task handling, and local data storage.
+This is a beginner-friendly React app that simulates a basic task management system for Employees and Admins. It features role-based dashboards, authentication, task handling, and data persistence using Local Storage.
+
+---
 
 ## 🚀 Features
 
-- 🔐 **Login System**: Simulated login system using React Context API.
-- 👥 **Role-based Dashboards**:
-  - **Employee Dashboard**: View and manage assigned tasks.
-  - **Admin Dashboard**: Manage users and assign tasks.
-- 📦 **React Context API**: For managing global authentication and task states.
-- 💾 **Local Storage**: Persists data like login sessions and tasks across refreshes.
-- 🧠 **AI-assisted Data Creation**: Uses ChatGPT-generated sample data.
-- 🔄 **Logout & Session Management**: Easily switch between users with session awareness.
+- 🔐 **Login System** – Simulated login using React Context API
+- 👥 **Role-based Dashboards**
+  - **Employee Dashboard** – View and manage assigned tasks
+  - **Admin Dashboard** – Manage users and assign tasks
+- 📦 **React Context API** – For global state management (auth & tasks)
+- 💾 **Local Storage** – Persist login sessions and task data across refreshes
+- 🧠 **AI-assisted Data Creation** – Uses ChatGPT to generate sample data
+- 🔄 **Logout & Session Management** – Tracks and manages active user sessions
+
+---
 
 ## 🛠️ Tech Stack
 
 - **React**
 - **React Router**
-- **Tailwind CSS** (optional if you used it)
+- **Tailwind CSS** *(optional, if used)*
 - **Context API**
 - **LocalStorage API**
 
+---
+
 ## 📂 Project Structure
-/src.
-├── components.
-│   ├── Dashboard.jsx         # Reusable dashboard layout.
-│   ├── Login.jsx             # Login form component
-│   └── TaskList.jsx          # Task list display component
+
+```bash
+/src
+├── components
+│   ├── Dashboard.jsx           # Reusable dashboard layout
+│   ├── Login.jsx               # Login form component
+│   └── TaskList.jsx            # Task list display component
 │
 ├── context
-│   ├── AuthContext.jsx       # Handles authentication state
-│   └── TaskContext.jsx       # Manages task-related state
+│   ├── AuthContext.jsx         # Handles authentication state
+│   └── TaskContext.jsx         # Manages task-related state
 │
 ├── pages
-│   ├── AdminDashboard.jsx    # Admin-specific dashboard view
-│   ├── EmployeeDashboard.jsx # Employee-specific dashboard view
-│   └── Login.jsx             # Login page (might reuse Login component)
+│   ├── AdminDashboard.jsx      # Admin-specific dashboard view
+│   ├── EmployeeDashboard.jsx   # Employee-specific dashboard view
+│   └── Login.jsx               # Login page (might reuse Login component)
 │
 ├── utils
-│   └── storage.js            # Utility functions for localStorage handling
+│   └── storage.js              # Utility functions for localStorage handling
 │
-├── App.jsx                   # Root component with routing logic
-└── main.jsx                  # Entry point that mounts the app
+├── App.jsx                     # Root component with routing logic
+└── main.jsx                    # Entry point that mounts the app
+
 
 
 ## 📦 Installation & Setup
