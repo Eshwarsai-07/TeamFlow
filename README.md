@@ -47,8 +47,7 @@ This project is a beginner-friendly React app that simulates a basic task manage
 ## 📦 Installation & Setup
 
 1. **Clone the Repository**
-   ```bash
-2. git clone https://github.com/your-username/employee-task-dashboard.git
+   git clone https://github.com/Eshwarsai-07/employee-task-dashboard.git
    cd employee-task-dashboard
 3. Install Dependencies
     npm install
